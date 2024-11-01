@@ -4,9 +4,14 @@
 
 The AI-Enhanced Document QA System is a document ingestion and question-answering system leveraging advanced AI models and vector databases. This project demonstrates the use of state-of-the-art AI tools and APIs, showcasing expertise in natural language processing (NLP) and information retrieval.
 
+## Overview
+
+https://github.com/user-attachments/assets/fe5e7529-3ad7-4cd6-a87b-df0580853d97
+
 ## Table of Contents
 
 - [Objective](#objective)
+- [Overview](#overview)
 - [Components](#components)
   - [1. Backend (Node.js)](#1-backend-nodejs)
   - [2. Frontend (React)](#2-frontend-react)
@@ -51,7 +56,7 @@ The frontend is built using React and provides a user-friendly interface to inte
 
 ### 3. AI Integration
 
-The AI system integrates with external AI APIs (Claude 3.5 or GPT-4) for:
+The AI system integrates with external OpenAI API for:
 
 - **Text Analysis**: Processes documents and extracts meaningful data.
 - **Question Answering**: Generates answers based on retrieved document chunks.
@@ -72,7 +77,7 @@ A Python script is provided for additional processing and enrichment of document
 - **Backend**: Node.js, Express
 - **Frontend**: React
 - **Vector Database**: Pinecone for storage and retrieval of embeddings
-- **AI API**: Claude 3.5 API or GPT-4 API
+- **AI API**: OpenAI API
 - **Python Script**: Topic modeling using Gensim and NLTK
 
 ## Setup Instructions
@@ -80,7 +85,7 @@ A Python script is provided for additional processing and enrichment of document
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-enhanced-document-qa-system.git
+git clone https://github.com/DenkoProg/ai-enhanced-document-qa-system.git
 cd ai-enhanced-document-qa-system
 ```
 
@@ -96,7 +101,6 @@ OPENAI_API_KEY=your_openai_api_key
 PINECONE_API_KEY=your_pinecone_api_key
 
 # Pinecone
-PINECONE_ENVIRONMENT=your_pinecone_environment
 PINECONE_INDEX_NAME=your_index_name
 
 # Server
@@ -158,7 +162,7 @@ python topic_modeling.py
 
 ## Evaluation Criteria
 
-- **Successful Integration**: Proper integration with Pinecone and the AI API (Claude 3.5 or GPT-4).
+- **Successful Integration**: Proper integration with Pinecone and the OpenAI API (GPT-3.5-Turbo).
 - **Effective RAG System**: Retrieval-augmented generation is implemented effectively.
 - **Quality of Processing**: Document processing, NER, and information retrieval are accurate.
 - **Frontend Design and UX**: User-friendly interface for uploading documents, asking questions, and displaying results.
