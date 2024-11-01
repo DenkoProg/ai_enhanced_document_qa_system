@@ -1,0 +1,4 @@
+gensim
+nltk
+pinecone
+python-dotenv
